@@ -23,6 +23,7 @@ pip install dicttoxml
 pip install xmltodict
 pip install routes
 pip install rsa
+pip install pytz
 ~~~
 
 ## Make Log directory
@@ -74,4 +75,10 @@ mysql -uroot -e "create database pyengine character set utf8 collate utf8_genera
 cd /opt/pyengine
 python manage.py makemigrations
 python manage.py migrate
+~~~
+
+# Restart apache
+
+~~~bash
+systemctl restart httpd.service
 ~~~
