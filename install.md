@@ -11,7 +11,7 @@ git clone https://github.com/choonho/pyengine.git
 ## Install Packages
 
 ~~~bash
-yum install python-devel python-pip mariadb-server mariadb MySQL-python httpd mod_wsgi
+yum install -y python-devel python-pip mariadb-server mariadb MySQL-python httpd mod_wsgi
 ~~~
 
 ## PIP package install
